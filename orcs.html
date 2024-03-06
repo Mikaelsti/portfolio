@@ -17,14 +17,31 @@
     </head>
 
     <body id="page-top" style="padding-right: 200px;">
-        <a href="index.html" style="font-weight: bold;"><-Return</a>
+        <a href="index.html" style="font-weight: bold;font-size: larger;"><-Return</a>
         <pre>
              
         </pre>
         <h1>Orcs be ballin'</h1>
+        <img width="800" src="assets/img/orcsimage.jpg" alt="..." />
         <p>
         This was our 3D project studies project where I worked as the lead programmer. We made a party game where the main emphasis was to have as much chaos as possible.
         I made our UI functions, Online lobby system, First iterations of unreal engine netcoding for ball throwing mechanics and the games custom gamemode required blueprints.
         </p>
+        <p style ="font-size: larger;">This game is downloadable from it's itch.io page here: <a href="https://hogwild8.itch.io/orcs-be-ballin">https://hogwild8.itch.io/orcs-be-ballin</a></p>
+        <p style ="font-size: larger;">Blueprints overview:</p>
+        <img  src="assets/img/loginout.jpg" alt="..." />
+        <p>In these functions players log in, log out and restart functionalities is handled.</p>
+        <img width="1600" src="assets/img/updateliststate.jpg" alt="..." />
+        <p>Update player list function that communicates with game state to update the currently connected players</p>
+        <p>Ready up functions:</p>
+        <img width="800" src="assets/img/readystuffs.jpg" alt="..." />
+        <p>Hosting a server. When a server is created a random 8-digit code is created for it as a server name. If server is set to made as private then this server will not show
+            up on the server browser and the only way to connect to that server is with this 8-digit code.
+        </p>
+        <img width="1600" src="assets/img/hostserver.jpg" alt="..." />
+        <p>With this next function player will provide a code to a text field and that value is saved as text in the blueprint and then it will compare the inputed
+            text to the array of game codes that there are and if it finds a game with that code it will join that game.
+        </p>
+        <img width="1600" src="assets/img/joinwithcode.jpg" alt="..." />
     </body>
 </html>
